@@ -1,0 +1,34 @@
+{  
+  "name": "liangpier/yii2_ext_base",  
+  "description": "Yii2 liangpier yii2_ext_base",  
+  "keywords": [  
+    "yii2",  
+    "yii2_ext_base"  
+  ],  
+  "homepage": "https://github.com/liangpier/yii2_ext_base",  
+  "type": "yii2-extension",  
+  "license": "MIT",  
+  "support": {  
+    "source": "https://github.com/liangpier/yii2_ext_base"  
+  },  
+  "authors": [  
+    {  
+      "name": "xingfu",  
+      "email": "270279930@qq.com"  
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"  
+     
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "ypbase\\": ""  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+}
